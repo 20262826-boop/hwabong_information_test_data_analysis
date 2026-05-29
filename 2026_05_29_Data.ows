@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(150, 300)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(300, 300)" />
+		<node id="2" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(300, 450)" />
+		<node id="3" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(450, 300)" />
+		<node id="4" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Time &amp; Electricity" position="(750, 0)" />
+		<node id="5" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Position &amp; Electricity" position="(750, 450)" />
+		<node id="6" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(750, 150)" />
+		<node id="7" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Time &amp; Electricity Sum" position="(900, 150)" />
+		<node id="8" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script (1)" position="(754.0, 652.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
+		<link id="3" source_node_id="3" sink_node_id="4" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="4" source_node_id="3" sink_node_id="5" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="5" source_node_id="3" sink_node_id="6" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="6" source_node_id="6" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="7" source_node_id="3" sink_node_id="8" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVygkAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxsQzovVXNlcnMvdXNlci9Eb3dubG9hZHMv7ZWc6rWt7KCE66Cl6rGw656Y7IaMX+yngOyX
+reuzhCDsi5zqsITrjIDrs4Qg7YOc7JaR6rSRIO2SjeugpSDrsJzsoITrn4lfMjAyNDEyMzEuY3N2
+lIwGcHJlZml4lE6MB3JlbHBhdGiUTowFdGl0bGWUjACUjAVzaGVldJRoDowLZmlsZV9mb3JtYXSU
+TnViaAYpgZR9lChoCYxWQzovVXNlcnMvdXNlci9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5n
+ZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50YWKUaAuMD3NhbXBsZS1k
+YXRhc2V0c5RoDIwIaXJpcy50YWKUaA1oDmgPaA5oEE51YmgGKYGUfZQoaAmMWUM6L1VzZXJzL3Vz
+ZXIvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3Jhbmdl
+L2RhdGFzZXRzL3RpdGFuaWMudGFilGgLaBRoDIwLdGl0YW5pYy50YWKUaA1oDmgPaA5oEE51YmgG
+KYGUfZQoaAmMWUM6L1VzZXJzL3VzZXIvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGli
+L3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hvdXNpbmcudGFilGgLaBRoDIwLaG91c2lu
+Zy50YWKUaA1oDmgPaA5oEE51YmgGKYGUfZQoaAmMX0M6L1VzZXJzL3VzZXIvQXBwRGF0YS9Mb2Nh
+bC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hlYXJ0
+X2Rpc2Vhc2UudGFilGgLaBRoDIwRaGVhcnRfZGlzZWFzZS50YWKUaA1oDmgPaA5oEE51YmgGKYGU
+fZQoaAmMYEM6L1VzZXJzL3VzZXIvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3Np
+dGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2Jyb3duLXNlbGVjdGVkLnRhYpRoC2gUaAyMEmJy
+b3duLXNlbGVjdGVkLnRhYpRoDWgOaA9oDmgQTnViaAYpgZR9lChoCYxVQzovVXNlcnMvdXNlci9B
+cHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0
+YXNldHMvem9vLnRhYpRoC2gUaAyMB3pvby50YWKUaA1oDmgPaA5oEE51YmWMC3JlY2VudF91cmxz
+lF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAKTAAAAxgAABOwAAAMkAAAClAAA
+AOUAAATrAAADIwAAAAAAAAAAB4AAAAKUAAAA5QAABOsAAAMjlIwLc2hlZXRfbmFtZXOUfZSMBnNv
+dXJjZZRLAIwDdXJslGgOjA1kb21haW5fZWRpdG9ylH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4
+dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiM
+BnZhbHVlc5R9lCiMCXZhcmlhYmxlc5RdlGgyfZRoPl2UKF2UKIwM6rGw656Y7J287J6QlIwUT3Jh
+bmdlLmRhdGEudmFyaWFibGWUjAxUaW1lVmFyaWFibGWUk5RLAGgOiGVdlCiMDOqxsOuemOyLnOqw
+hJRoRIwSQ29udGludW91c1ZhcmlhYmxllJOUSwBoDohlXZQojAbsp4Dsl62UaESMEERpc2NyZXRl
+VmFyaWFibGWUk5RLAIzb6rCV7JuQ64+ELCDqsr3quLDrj4QsIOqyveyDgeuCqOuPhCwg6rK97IOB
+67aB64+ELCDqtJHso7zsi5wsIOuMgOq1rOyLnCwg64yA7KCE7IucLCDrtoDsgrDsi5wsIOyEnOya
+uOyLnCwg7IS47KKF7IucLCDsmrjsgrDsi5wsIOycoeyngCwg7J247LKc7IucLCDsoITrnbzrgqjr
+j4QsIOyghOudvOu2geuPhCwg7KCc7KO8LCDsoJzso7zrj4QsIOy2qeyyreuCqOuPhCwg7Lap7LKt
+67aB64+ElIllXZQojAnsl7Dro4zsm5CUaE5LAIwR7YOc7JaR6rSRLCDtko3roKWUiWVdlCiMFOyg
+hOugpeqxsOuemOufiShNV2gplGhKSwBoDohlZXNoNEsBdYwKYXR0cmlidXRlc5QoaENLBIaUaEhL
+AoaUaExdlCiMCeqwleybkOuPhJSMCeqyveq4sOuPhJSMDOqyveyDgeuCqOuPhJSMDOqyveyDgeu2
+geuPhJSMCeq0keyjvOyLnJSMCeuMgOq1rOyLnJSMCeuMgOyghOyLnJSMCeu2gOyCsOyLnJSMCeyE
+nOyauOyLnJSMCeyEuOyiheyLnJSMCeyauOyCsOyLnJSMBuycoeyngJSMCeyduOyynOyLnJSMDOyg
+hOudvOuCqOuPhJSMDOyghOudvOu2geuPhJSMBuygnOyjvJSMCeygnOyjvOuPhJSMDOy2qeyyreuC
+qOuPhJSMDOy2qeyyreu2geuPhJRlhpRoUV2UKIwJ7YOc7JaR6rSRlIwG7ZKN66CllGWGlGhUSwKG
+lHSUjAVtZXRhc5QpjApjbGFzc192YXJzlCmMEm1vZGlmaWVkX3ZhcmlhYmxlc5RdlHViaDkpgZR9
+lChoPH2UKGg+XZRoMn2UaD5dlChdlCiMDHNlcGFsIGxlbmd0aJRoSksAaA6IZV2UKIwLc2VwYWwg
+d2lkdGiUaEpLAGgOiGVdlCiMDHBldGFsIGxlbmd0aJRoSksAaA6IZV2UKIwLcGV0YWwgd2lkdGiU
+aEpLAGgOiGVdlCiMBGlyaXOUaE5LAYwsSXJpcy1zZXRvc2EsIElyaXMtdmVyc2ljb2xvciwgSXJp
+cy12aXJnaW5pY2GUiWVlc2g0SwF1aFUoaH5LAoaUaIBLAoaUaIJLAoaUaIRLAoaUdJRocylodGiG
+XZQojAtJcmlzLXNldG9zYZSMD0lyaXMtdmVyc2ljb2xvcpSMDklyaXMtdmlyZ2luaWNhlGWGlIWU
+aHVdlHViZXUu
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02/\x00\x00\x00\xeb\x00\x00\x05P\x00\x00\x02\xfe\x00\x00\x020\x00\x00\x01\n\x00\x00\x05O\x00\x00\x02\xfd\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x020\x00\x00\x01\n\x00\x00\x05O\x00\x00\x02\xfd', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVuAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAACkwAAAR0AAATsAAACzAAAApQAAAE8AAAE6wAAAssAAAAAAAAAAAeAAAAClAAAATwA
+AATrAAACy5SMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQojAnsl7Dro4zsm5CUSwFLAF2UjAntg5zslpHqtJGUYXSUYWgI
+SwJ1jAphdHRyaWJ1dGVzlH2UKIwM6rGw656Y7J287J6QlEsEjAzqsbDrnpjsi5zqsISUSwKMBuyn
+gOyXrZRLAWgUSwGMFOyghOugpeqxsOuemOufiShNV2gplEsCdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+		<properties node_id="3" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xbf\x00\x00\x04\x07\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x03\xbe\x00\x00\x04\x06\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x03\xbe\x00\x00\x04\x06', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [383, 359, 335, 311, 287, 263, 239, 215, 191, 167, 143, 119, 95, 71, 47, 23, 406, 382, 358, 334, 310, 286, 262, 238, 214, 190, 166, 142, 118, 94, 70, 46, 22, 405, 381, 357, 333, 309, 285, 261, 237, 213, 189, 165, 141, 117, 93, 69, 45, 21, 404, 380, 356, 332, 308, 284, 260, 236, 212, 188, 164, 140, 116, 92, 68, 44, 20, 403, 379, 355, 331, 307, 283, 259, 235, 211, 187, 163, 139, 115, 91, 67, 43, 19, 402, 378, 354, 330, 306, 282, 258, 234, 210, 186, 162, 138, 114, 90, 66, 42, 18, 401, 377, 353, 329, 305, 281, 257, 233, 209, 185, 161, 137, 113, 89, 65, 41, 17, 400, 376, 352, 328, 304, 280, 256, 232, 208, 184, 160, 136, 112, 88, 64, 40, 16, 399, 375, 351, 327, 303, 279, 255, 231, 207, 183, 159, 135, 111, 87, 63, 39, 15, 398, 374, 350, 326, 302, 278, 254, 230, 206, 182, 158, 134, 110, 86, 62, 38, 14, 397, 373, 349, 325, 301, 277, 253, 229, 205, 181, 157, 133, 109, 85, 61, 37, 13, 396, 372, 348, 324, 300, 276, 252, 228, 204, 180, 156, 132, 108, 84, 60, 36, 12, 395, 371, 347, 323, 299, 275, 251, 227, 203, 179, 155, 131, 107, 83, 59, 35, 11, 394, 370, 346, 322, 298, 274, 250, 226, 202, 178, 154, 130, 106, 82, 58, 34, 10, 393, 369, 345, 321, 297, 273, 249, 225, 201, 177, 153, 129, 105, 81, 57, 33, 9, 392, 368, 344, 320, 296, 272, 248, 224, 200, 176, 152, 128, 104, 80, 56, 32, 8, 391, 367, 343, 319, 295, 271, 247, 223, 199, 175, 151, 127, 103, 79, 55, 31, 7, 390, 366, 342, 318, 294, 270, 246, 222, 198, 174, 150, 126, 102, 78, 54, 30, 6, 389, 365, 341, 317, 293, 269, 245, 221, 197, 173, 149, 125, 101, 77, 53, 29, 5, 388, 364, 340, 316, 292, 268, 244, 220, 196, 172, 148, 124, 100, 76, 52, 28, 4, 387, 363, 339, 315, 291, 267, 243, 219, 195, 171, 147, 123, 99, 75, 51, 27, 3, 386, 362, 338, 314, 290, 266, 242, 218, 194, 170, 146, 122, 98, 74, 50, 26, 2, 385, 361, 337, 313, 289, 265, 241, 217, 193, 169, 145, 121, 97, 73, 49, 25, 1, 384, 360, 336, 312, 288, 264, 240, 216, 192, 168, 144, 120, 96, 72, 48, 24, 0], 'columns': [0, 1, 2, 3, 4]}, 'stored_sort': [('전력거래량(MWh)', 1), ('지역', -1), ('거래시간', -1), ('연료원', -1), ('거래일자', 1)], '__version__': 1}</properties>
+		<properties node_id="4" format="pickle">gASVXwMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABiQAAAIMAAAX2AAADZgAAAYoAAACiAAAF9QAAA2UAAAAAAAAA
+AAeAAAABigAAAKIAAAX1AAADZZSMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
+aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
+dHmUiYwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
+ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
+bGxpcHNllImMCXNob3dfZ3JpZJSJjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIl1jAtf
+X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdz
+lIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwKYXR0cl9jb2xvcpROSv7///+GlIwKYXR0
+cl9sYWJlbJROSv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0cl9zaXpllE5K/v///4aU
+jAZhdHRyX3iUjAzqsbDrnpjsi5zqsISUS2aGlIwMYXR0cl94X2xvd2VylE5K/v///4aUjAxhdHRy
+X3hfdXBwZXKUTkr+////hpSMBmF0dHJfeZSMFOyghOugpeqxsOuemOufiShNV2gplEtmhpSMDGF0
+dHJfeV9sb3dlcpROSv7///+GlIwMYXR0cl95X3VwcGVylE5K/v///4aUaAx9lGgZSwV1jAphdHRy
+aWJ1dGVzlH2UKIwM6rGw656Y7J287J6QlEsEaCxLAowG7KeA7JetlEsBjAnsl7Dro4zsm5CUSwFo
+M0sCdYwFbWV0YXOUfZR1YmF1Lg==
+</properties>
+		<properties node_id="5" format="pickle">gASV1QEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAHRAAAB+AAABj4AAATbAAAB0gAAAhcAAAY9AAAE
+2gAAAAAAAAAAB4AAAAHSAAACFwAABj0AAATalIwJc2VsZWN0aW9ulE6MD3Zpc3VhbF9zZXR0aW5n
+c5R9lIwFZ3JhcGiUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFu
+Z2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAlhbm5vdF92
+YXKUTkr+////hpSMCWNvbG9yX3ZhcpROSv7///+GlIwJZ3JvdXBfdmFylIwG7KeA7JetlEtlhpSM
+DHNlbGVjdGVkX3ZhcpSMFOyghOugpeqxsOuemOufiShNV2gplEtmhpRoCH2UaApLAXWMCmF0dHJp
+YnV0ZXOUfZQojAzqsbDrnpjsnbzsnpCUSwSMDOqxsOuemOyLnOqwhJRLAmgZSwGMCeyXsOujjOyb
+kJRLAWgcSwJ1jAVtZXRhc5R9lHViYXUu
+</properties>
+		<properties node_id="6" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xbf\x00\x00\x04\x07\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x03\xbe\x00\x00\x04\x06\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x03\xbe\x00\x00\x04\x06', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\n# 1. 1부터 24까지의 시간 범주 생성\ntime_values = tuple(str(i) for i in range(1, 25))\n\ndomain = Domain([\n    DiscreteVariable("time", values=time_values),\n    ContinuousVariable("Electricity_Sum")  # 이름을 합계에 맞게 변경\n])\n\n# 2. 시간별 전력량 합계를 저장할 빈 딕셔너리 생성 (1~24시 초기화)\n# {1: 0.0, 2: 0.0, ..., 24: 0.0} 형태가 됩니다.\nelectricity_sums = {i: 0.0 for i in range(1, 25)}\n\n# 3. 데이터를 돌며 시간별로 전력량을 누적해서 더하기\nfor single_data in in_data:\n    time = int(single_data["거래시간"])\n    electricity = float(single_data["전력거래량(MWh)"])\n    \n    # 해당 시간에 전력량을 더해줍니다.\n    if time in electricity_sums:\n        electricity_sums[time] += electricity\n\n# 4. 합산된 결과를 Orange 데이터 배열(arr) 형태로 변환\narr = []\nfor time in range(1, 25):\n    # Orange의 DiscreteVariable 인덱스 규칙에 맞게 시간에서 1을 뺍니다 (0~23)\n    orange_time_idx = time - 1\n    total_electricity = electricity_sums[time]\n    \n    arr.append([orange_time_idx, total_electricity])\n\n# 5. Orange 테이블로 변환\narr = np.array(arr)\nout_data = Table.from_numpy(domain, arr)', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="7" format="pickle">gASV+QEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAKgAAAAoAAABw0AAAODAAACoQAAAL8AAAcMAAAD
+ggAAAAAAAAAAB4AAAAKhAAAAvwAABwwAAAOClIwJc2VsZWN0aW9ulE6MD3Zpc3VhbF9zZXR0aW5n
+c5R9lIwFZ3JhcGiUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jh
+bmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJYW5ub3Rf
+dmFylE5K/v///4aUjAljb2xvcl92YXKUTkr+////hpSMCWdyb3VwX3ZhcpSMBHRpbWWUS2WGlIwM
+c2VsZWN0ZWRfdmFylIwPRWxlY3RyaWNpdHlfU3VtlEtmhpRoCH2UaApLAXWMCmF0dHJpYnV0ZXOU
+fZQoaBlLAWgcSwJ1jAVtZXRhc5R9lHViaA8pgZR9lChoEn2UKGgUTkr+////hpRoFk5K/v///4aU
+aBhoGUtlhpRoG4wLRWxlY3RyaWNpdHmUS2aGlGgIfZRoCksBdWgffZQoaBlLAWgpSwJ1aCF9lHVi
+ZXUu
+</properties>
+		<properties node_id="8" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xbf\x00\x00\x04\x07\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x03\xbe\x00\x00\x04\x06\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x03\xbe\x00\x00\x04\x06', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\n# 1. 1부터 24까지의 시간 범주 생성\npos_value = (\n    "강원도", "경기도", "경상남도", "경상북도", "광주시", \n    "대구시", "대전시", "부산시", "서울시", "세종시", \n    "울산시", "인천시", "전라남도", "전라북도", "제주도", \n    "충청남도", "충청북도"\n)\n\ndomain = Domain([\n    DiscreteVariable("position", values=time_values),\n    ContinuousVariable("Electricity_Sum")  # 이름을 합계에 맞게 변경\n])\n\nelectricity_sums = {i: 0.0 for i in range(len(pos_value))}\n\n# 3. 데이터를 돌며 시간별로 전력량을 누적해서 더하기\nfor single_data in in_data:\n    time = int(single_data["지역"])\n    electricity = float(single_data["전력거래량(MWh)"])\n    \n    # 해당 시간에 전력량을 더해줍니다.\n    if time in electricity_sums:\n        electricity_sums[time] += electricity\n\n# 4. 합산된 결과를 Orange 데이터 배열(arr) 형태로 변환\narr = []\nfor time in range(1, 25):\n    # Orange의 DiscreteVariable 인덱스 규칙에 맞게 시간에서 1을 뺍니다 (0~23)\n    orange_time_idx = time - 1\n    total_electricity = electricity_sums[time]\n    \n    arr.append([orange_time_idx, total_electricity])\n\n# 5. Orange 테이블로 변환\narr = np.array(arr)\nout_data = Table.from_numpy(domain, arr)', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
